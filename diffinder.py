@@ -18,9 +18,9 @@ with open('first-diff', 'w') as file_out:
     for line in difference:
         file_out.write(line)
 print("[+] IN First File NOT IN Second File \n")
-dosya = open("first-diff", "r", encoding="utf-8")
-read = dosya.read()
-print(read)
+f = open("first-diff", "r", encoding="utf-8")
+r = f.read()
+print(r)
 
 with open(first_file) as file1:
     with open(second_file) as file2:
@@ -33,7 +33,7 @@ with open('second-diff', 'w') as file_out:
         file_out.write(line)
 
 print("[+] IN Second File NOT IN First File \n")
-dosya = open("second-diff", "r", encoding="utf-8")
-read = dosya.read()
-print(read)
+f = open("second-diff", "r", encoding="utf-8")
+r = f.read()
+print(r)
 
