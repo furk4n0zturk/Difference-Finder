@@ -1,6 +1,8 @@
 # Difference-Finder
 Detects different contents in two files and prints them separately.
 
+Note: The files you will compare must be in the same directory as diffinder.py
+
 ## Usage
 
 When the contents of the files named file1 and file2 that we will compare are as follows;
